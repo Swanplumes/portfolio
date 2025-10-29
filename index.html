@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Sara Priscila</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+    
+    <!-- Bibliotecas de ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header>
+      <div class="container nav-wrapper">
+        <h1 class="logo">SWAN<span class="realce">PLUMES</span></h1>
+
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav class="navbar">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img src="assets/imgs/foto-perfil.png" alt="Foto de perfil de Sara Priscila" class="profile-img" />
+        </div>
+        <div class="hero-text">
+          <h2><span class="typed-text" id="typed"></span></h2>
+          <p>
+            Sou Sara Priscila, técnica em Informática e estudante de Sistemas para Internet no IFSul. 
+            Trabalho como Jovem Aprendiz no Hospital de São Jerônimo, onde uno teoria e prática no desenvolvimento de soluções web modernas, responsivas e focadas na experiência do usuário.
+          </p>
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-text">
+          Durante o curso técnico em Informática, tive contato com diversas áreas — desde redes e hardware até programação e banco de dados. 
+          Foi nesse período que descobri meu verdadeiro interesse: criar interfaces digitais funcionais e intuitivas, unindo o raciocínio lógico com a criatividade.
+        </p>
+        <p class="section-text">
+          Hoje, como estudante de Sistemas para Internet, foco meus estudos no desenvolvimento front-end, buscando criar soluções web que sejam modernas, responsivas e voltadas à experiência do usuário.
+        </p>
+        <p class="section-text">
+          Minha experiência como Jovem Aprendiz no Hospital de São Jerônimo tem sido essencial para o meu crescimento profissional. Atuo diretamente com tecnologia e sistemas internos, o que me permite aplicar na prática tudo o que aprendo e aprimorar continuamente minhas habilidades técnicas.
+        </p>
+        <p class="section-text">
+          Sou uma pessoa curiosa, dedicada e gosto de aprender novas tecnologias que tornem o processo de desenvolvimento mais ágil e eficiente.
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES / STACKS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <span>Tailwind</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original"></i>
+            <span>GitHub</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-figma-plain colored"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          
+          <div class="projeto-card">
+            <img src="assets/imgs/card-project-1.png" alt="Print do Sistema de Ramais" />
+            <h3>Sistema de Ramais</h3>
+            <p>
+              Desenvolvido com React e Tailwind CSS para o Hospital de São Jerônimo. Possui filtro de pesquisa funcional, layout responsivo em três colunas e integração com API usando Axios.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img src="assets/imgs/card-project-2.png" alt="Print do Sistema de Chamados" />
+            <h3>Sistema de Chamados</h3>
+            <p>
+              Sistema com filtros dinâmicos e barra de pesquisa desenvolvido em React e Tailwind CSS. Organiza softwares internos do hospital para facilitar navegação e otimizar o tempo dos colaboradores.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img src="assets/imgs/card-project-3.png" alt="Print do Site Sabrina Carpenter" />
+            <h3>Site Sabrina Carpenter</h3>
+            <p>
+              Meu primeiro projeto desenvolvido em HTML e CSS durante o curso de Sistemas para Internet. Trabalhei layout, responsividade e organização de conteúdo.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contato-card">
+        <h2>Contato</h2>
+        <p>Vamos conversar! Me encontre no LinkedIn, GitHub ou envie um e-mail 😊</p>
+        <div class="social-links">
+          <a href="#" class="btn-social">
+            <i class="devicon-github-original"></i> GitHub
+          </a>
+          <a href="#" class="btn-social">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="mailto:seu@email.com" class="btn-social">
+            <i class="fas fa-envelope"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <p>
+        Desenvolvido por Sara Priscila • 2025
+      </p>
+    </footer>
+
+    <!-- SCRIPT: Animação de digitação na Hero -->
+    <script>
+      const text = "Olá, meu nome é Sara Pricila!";
+      const typedEl = document.getElementById("typed");
+
+      let i = 0;
+      function digitar() {
+        if (i < text.length) {
+          typedEl.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(digitar, 100);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", digitar);
+    </script>
+  </body>
+</html>
